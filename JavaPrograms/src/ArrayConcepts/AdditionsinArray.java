@@ -12,7 +12,6 @@ public class AdditionsinArray {
 			
 			sum = sum + num[i];
 			
-			 
 		}
 	System.out.println(sum);
 	}

@@ -27,6 +27,10 @@ public class FrequencyOfElementsInAnArray {
 			if(visitedArr[i]!=visited){
 			
 			}
+			//System.out.println("Not visited: "+ visitedArr[i]);
+			//System.out.println("Visited :"+ visited);
+			
+			
 			System.out.println("frequency of "+arr[i]+" : "+visitedArr[i]);
 			}
 			

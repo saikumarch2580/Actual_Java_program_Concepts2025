@@ -22,21 +22,6 @@ public class RemoveDuplicteElements2 {
 		
 		 	System.out.println(temp[i]);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
 	

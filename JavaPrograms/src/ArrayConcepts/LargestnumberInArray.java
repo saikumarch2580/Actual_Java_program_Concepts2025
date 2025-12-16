@@ -3,7 +3,7 @@ package ArrayConcepts;
 public class LargestnumberInArray {
 
 	public static void main(String[] args) {
-		int numbers[] = {1,5,15,30}; 
+		int numbers[] = {1,5,30,15}; 
 		
 		int largenumber = numbers[0];
 		int smallnumber = numbers[0];

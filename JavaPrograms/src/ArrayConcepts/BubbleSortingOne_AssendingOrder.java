@@ -9,14 +9,15 @@ public class BubbleSortingOne_AssendingOrder {
 		int length = arr.length;
 		
 		int temp=0;
+		
 		for(int i=0; i<length; i++) {
 			
 			int flat =0;
+			
 			for(int j=0; j<length-1; j++) {
 				
 				if(arr[j]> arr[j+1]) {
-					
-				   
+						   
 					temp =arr[j];
 					
 					arr[j]= arr[j+1];
