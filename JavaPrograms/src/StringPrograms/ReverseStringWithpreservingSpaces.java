@@ -21,6 +21,7 @@ public class ReverseStringWithpreservingSpaces {
 
 		        for (int i = 0; i < inputArray.length; i++) {
 		            if (inputArray[i] != ' ') {
+		            	//Means process only letters not spaces. 
 		                // Move j left if we hit a space in result
 		                while (result[j] == ' ') {
 		                    j--;
@@ -40,4 +41,47 @@ public class ReverseStringWithpreservingSpaces {
 
 	}
 
+/*
+ package PracticeJavaPrograms;
+
+public class ReverseAStringWithPreservativeSpaces {
+
+	public static void main(String[] args) {
+
+		String str = "My name is sairam";
+		
+	    int len =  str.length();
+	    
+	   char[] rev =  str.toCharArray();
+	   
+	   char[] store = new char[str.length()];
+	   
+	   for(int i=0; i<len; i++) {
+		   
+		   if(rev[i]==' ') {
+			   
+			   store[i]= rev[i];
+		   }
+	   }
+      
+	   int j = str.length()-1;
+	   for(int i=0; i<len; i++) {
+		   
+		   
+		   
+		   if(rev[i]!=' ') {
+			   
+		   }
+		   
+		   store[j]= rev[i];
+		   
+		   j--;
+	   } 
+	   
+     System.out.println(store);
+	}
+
+}
+
+ */
 

@@ -16,9 +16,18 @@ public class I_Love_Java_Programming_Reverse_Programming {
 			
 			if(i==split.length-1) {
 				
+				//why split.length-1?
+				// Ex: My name is sai. the index is 3. Length is 4. 
+				// Formula is Last index = length - 1 means 4-1 = 3
+				
+				
 				for(int j=split[i].length()-1; j>=0; j--) {
 					
 					temp=temp+split[i].charAt(j);
+					//i = 3   → "Programming"
+					//j = 10  → last character
+					//split[i].charAt(j); means last word(i) of character(j) storing in the temp.
+					//Means the Programming of g is storing in the temp first.
 				}
 				temp =temp+" ";
 			} else
